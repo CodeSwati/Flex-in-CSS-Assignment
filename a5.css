@@ -1,0 +1,229 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+body{
+	display: flex;
+
+}
+
+
+
+.details{
+	width: 55%;
+	padding: 28px 70px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 40px;	
+}
+
+
+/*--------header section-----------------*/
+
+
+.details .header{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.left-side img{
+	width: 45px;
+	height: 40px;
+}
+.left-side img:first-child{
+	margin-right: 10px;
+}
+
+.right-side{
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+.right-side ul{
+	list-style: none;
+	display: flex;
+	column-gap: 15px;
+	font-size: 16px;
+}
+
+.right-side a{
+	color: black;
+	text-decoration: none;
+}
+
+
+.right-side button{
+	cursor: pointer;
+	padding: 5px 10px;
+	border: 1px solid lightgrey;
+	border-radius: 3px;
+	background-color: white;
+
+  
+}
+
+.right-side button:first-child{
+	background-color: orange;
+	color: white;
+	border: none;
+
+}
+/*------------------main section---------*/
+.main{
+	font-family: 'AR One Sans', sans-serif;
+font-family: 'Caveat', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+
+
+display: flex;
+flex-direction: column;
+row-gap: 40px;
+
+}
+.main h1{
+	font-size: 35px;
+}
+.main p span{
+	font-size: 22px;
+	margin-right:5px;
+
+}
+.main p span:first-child{
+	color:#34c334;
+}
+
+.main p span:nth-child(2){
+	color: orange;
+}
+.main p span:nth-child(3){
+	color:#32326b;
+}
+
+/*--------booking status----------------*/
+
+
+.booking button{
+	padding: 8px 14px;
+	background-color: white;
+	border: 1px solid lightgrey;
+	border-radius: 3px;
+	font-size: 13px;
+	font-weight: 550;
+
+}
+
+.booking button:first-child{
+	background-color: #32326b;
+	color: white;
+	border: none;
+	margin-right: 10px;
+}
+.booking button:nth-child(2){
+	margin-right: 10px;
+}
+.fa-hourglass, .fa-check,.fa-square-poll-vertical{
+	font-size: 16px;
+}
+
+/*----------travel-city----------*/
+
+.travel-status p{
+	font-size: 13px;
+}
+
+.travel-city, .travel-date{
+	height: 100px;
+	width:auto;
+	margin: 0 2px;
+	border-radius: 5px;
+    border: 1px solid lightgrey;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 40px;
+
+}
+.travel-city .from{
+	margin-right: 90px;
+}
+
+.travel-city .from p,.travel-city .to p{
+	margin-bottom: 4px;
+}
+
+
+.travel-city p, .travel-date p{
+color: grey;
+}
+
+
+.travel-city .arrow-circle{
+	margin-right: 90px;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	border: 1px solid lightgrey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+ 	font-size: 18px;
+}
+
+.travel-status{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.travel-icon{
+	margin-bottom: 11px;
+}
+
+
+/*--------------travel-date---------------*/
+.travel-date{
+margin-top: 15px;
+}
+
+
+.travel-date div p,h3{
+	margin-bottom:4px ;
+}
+
+.fa-calendar-days, .fa-bowling-ball,.fa-qrcode{
+	margin-bottom:11px;
+	margin-right:-90px;
+	font-size: 21px;
+}
+
+
+/*----------for search train-----------*/
+.search-train{
+	height: 50px;
+	width: 100%;
+	background-color: green;
+	border: none;
+	color: white;
+	font-size: 16px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+/*-------------for the railway image---------------------*/
+
+.railway{
+	width: 45%;
+}
+
+.railway img{
+	height:97vh;
+	width: 550px;	
+}

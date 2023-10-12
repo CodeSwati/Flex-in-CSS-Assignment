@@ -1,0 +1,20 @@
+Q1. Describe the main difference between the CSS Flexbox layout model and the CSS Grid layout model. When would
+you choose to use over the other?
+ans)flexbox was designed for layout in one dimension - either a row or a column. 
+Grid was designed for two-dimensional layout - rows, and columns at the same time.
+
+Q2)Explain the role of the following key properties in the Flexbox layout model-
+a) justify content
+ans)Horizontally aligns the flex items when the items do not use all available space on the main-axis
+
+b) align-items
+ans)vertically aligns the flex items
+
+c) gap
+ans)The gap property defines the size of the gap between the rows and between the columns in flexbox, grid or multi-column layout.
+
+d) flex-direction
+ans) Adding the flex-direction property to the flex container allows us to change the direction in which our flex items display.
+
+e) flex-wrap
+ans)Specifies whether the flex items should wrap or not, if there is not enough room for them on one flex line.
